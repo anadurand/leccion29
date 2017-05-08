@@ -62,8 +62,8 @@
 .col-5{
   width: 41.666%;
 }
-.col-6{
-  width: 50%;
+.col-8{
+  width: 66.666%;
 }
 .col-12{
   width: 100%;
@@ -97,16 +97,23 @@
   background-color: lightgrey;
   margin: 0 0 0 6.5%;
 }
-.cuarto .col-6{
+.cuarto .col-8{
   background-color: grey;
 }
+.cuarto .row-1{
+  margin: 0 0 0 6%;
+}
 .cuarto .row-1 .col-3{
-  margin: 0 3%;
   background-color: grey;
+  float: right;
 }
 .cuarto .col-3{
   background-color: lightgrey;
 }
 .cuarto .row-2{
   height: 100px;
+}
+
+.cuarto .row-3 .col-3{
+  float: right;
 }
